@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Mon Application</string>
+    <string name="edit_message">Bonjour le monde !</string>
+    <string name="button_send">Send</string>
+    <string name="hello_world">"Hello World"</string>
+    <string name="pirates">Calc</string>
+    <string name="ninjas">Weather</string>
+    <string name="num2">Number 2</string>
+    <string name="num1">Number 1</string>
+    <string name="calculateButton">Calculate</string>
+    <string name="sum">Sum</string>
+    <string name="multiply">Multiply</string>
+    <string name="subtract">Subtract</string>
+</resources>
