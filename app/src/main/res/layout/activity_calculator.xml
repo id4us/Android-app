@@ -9,7 +9,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.example.sethishi.myfirstapp.Calculator">
+    tools:context="com.example.sethishi.myfirstapp.com.example.id4us.myfirstapp.Calculator">
 
     <EditText
         android:layout_height="wrap_content"

@@ -1,6 +1,6 @@
-package com.example.sethishi.helpers;
+package com.example.id4us.helpers;
 
-import com.example.sethishi.models.WeatherVo;
+import com.example.id4us.models.WeatherVo;
 import com.google.gson.Gson;
 
 /**

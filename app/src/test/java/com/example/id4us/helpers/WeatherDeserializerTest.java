@@ -1,7 +1,7 @@
-package com.example.sethishi.helpers;
+package com.example.id4us.helpers;
 
-import com.example.sethishi.models.Weather;
-import com.example.sethishi.models.WeatherVo;
+import com.example.id4us.helpers.WeatherDeserializer;
+import com.example.id4us.models.WeatherVo;
 
 import org.junit.Test;
 

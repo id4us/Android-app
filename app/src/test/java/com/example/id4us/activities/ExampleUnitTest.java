@@ -1,4 +1,4 @@
-package com.example.sethishi.myfirstapp;
+package com.example.id4us.activities;
 
 import org.junit.Test;
 

@@ -1,12 +1,13 @@
-package com.example.sethishi.myfirstapp;
+package com.example.id4us.activities;
 
 import android.os.AsyncTask;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.TextView;
 
-import com.example.sethishi.helpers.WeatherDeserializer;
-import com.example.sethishi.models.WeatherVo;
+import com.example.id4us.helpers.WeatherDeserializer;
+import com.example.id4us.models.WeatherVo;
+import com.example.sethishi.myfirstapp.R;
 
 import org.json.JSONObject;
 
@@ -78,7 +79,7 @@ public class WeatherActivity extends AppCompatActivity {
                     TextView textView3 = (TextView) findViewById(R.id.city);
 
                    textView1.setText("Today's Max is "+weatherVo.getMain().getTempMax().toString()+" deg");
-                    textView2.setText("Today's Max is "+weatherVo.getMain().getTempMax().toString()+" deg");
+                    textView2.setText("Today's Min is "+weatherVo.getMain().getTempMin().toString()+" deg");
                     textView3.setText(weatherVo.getName());
 
                 }

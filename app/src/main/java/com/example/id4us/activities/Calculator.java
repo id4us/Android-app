@@ -1,14 +1,13 @@
-package com.example.sethishi.myfirstapp;
+package com.example.id4us.activities;
 
-import android.content.Intent;
-import android.support.annotation.IntegerRes;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
-import android.view.ViewGroup;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.TextView;
+
+import com.example.sethishi.myfirstapp.R;
 
 public class Calculator extends AppCompatActivity {
 

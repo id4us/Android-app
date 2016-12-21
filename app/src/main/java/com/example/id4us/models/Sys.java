@@ -1,5 +1,5 @@
 
-package com.example.sethishi.models;
+package com.example.id4us.models;
 
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
