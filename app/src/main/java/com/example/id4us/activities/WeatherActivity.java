@@ -16,6 +16,8 @@ import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.net.HttpURLConnection;
 import java.net.URL;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 
 
 
@@ -77,10 +79,15 @@ public class WeatherActivity extends AppCompatActivity {
                     TextView textView1 = (TextView) findViewById(R.id.maxTemp);
                     TextView textView2 = (TextView) findViewById(R.id.minTemp);
                     TextView textView3 = (TextView) findViewById(R.id.city);
+                    TextView textView4 = (TextView) findViewById(R.id.datetime);
 
                    textView1.setText("Today's Max is "+weatherVo.getMain().getTempMax().toString()+" deg");
                     textView2.setText("Today's Min is "+weatherVo.getMain().getTempMin().toString()+" deg");
                     textView3.setText(weatherVo.getName());
+
+                    Date date = new Date(weatherVo.getDt()* 1000L);
+                    SimpleDateFormat format = new SimpleDateFormat("EEE, MMM d, ''yy");
+                    textView4.setText(format.format(date));
 
                 }
 

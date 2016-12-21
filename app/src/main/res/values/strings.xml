@@ -1,8 +1,8 @@
 <resources>
-    <string name="app_name">My First App</string>
+    <string name="app_name">Mysteries</string>
     <string name="edit_message">Enter a message</string>
     <string name="button_send">Send</string>
-    <string name="hello_world">"Hello World"</string>
+    <string name="hello_world">Mysteries of the World</string>
     <string name="pirates">Calculator</string>
     <string name="ninjas">Weather</string>
     <string name="num2">Number 2 :</string>

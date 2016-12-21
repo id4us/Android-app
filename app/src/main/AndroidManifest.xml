@@ -11,15 +11,17 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name="com.example.id4us.activities.MainActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
         <activity android:name="com.example.id4us.activities.DisplayMessageActivity" />
         <activity android:name="com.example.id4us.activities.Calculator" />
-        <activity android:name="com.example.id4us.activities.WeatherActivity"></activity>
+        <activity android:name="com.example.id4us.activities.WeatherActivity" />
+        <activity android:name="com.example.id4us.activities.HomePageActivity">
+            <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter></activity>
     </application>
 
 </manifest>
