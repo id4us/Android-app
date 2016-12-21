@@ -3,7 +3,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical">
+    android:orientation="vertical"
+
+    android:background="@drawable/background">
+
     <EditText android:id="@+id/edit_message"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -21,12 +24,12 @@
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical">
-        <RadioButton android:id="@+id/radio_pirates"
+        <RadioButton android:id="@+id/radio_calculator"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/pirates"
             android:onClick="onRadioButtonClicked"/>
-        <RadioButton android:id="@+id/radio_ninjas"
+        <RadioButton android:id="@+id/radio_weather"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/ninjas"
