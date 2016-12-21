@@ -27,14 +27,16 @@ public class MainActivity extends AppCompatActivity {
 
         // Check which radio button was clicked
         switch(view.getId()) {
-            case R.id.radio_pirates:
+            case R.id.radio_calculator:
                 if (checked) EXTRA_MESSAGE ="Yes was Clicked";
                 Intent intent2 = new Intent(this, Calculator.class);
                 startActivity(intent2);
                     break;
-            case R.id.radio_ninjas:
+            case R.id.radio_weather:
                 if (checked)
-                    EXTRA_MESSAGE ="No was Clicked";
+                    if (checked) EXTRA_MESSAGE ="Yes was Clicked";
+                Intent intent = new Intent(this, WeatherActivity.class);
+                startActivity(intent);
                     break;
         }
     }
