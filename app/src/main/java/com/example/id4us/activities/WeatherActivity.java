@@ -1,6 +1,7 @@
 package com.example.id4us.activities;
 
 import android.os.AsyncTask;
+import android.support.v4.app.FragmentActivity;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.TextView;
@@ -18,7 +19,6 @@ import java.net.HttpURLConnection;
 import java.net.URL;
 import java.text.SimpleDateFormat;
 import java.util.Date;
-
 
 
 public class WeatherActivity extends AppCompatActivity {
@@ -65,7 +65,6 @@ public class WeatherActivity extends AppCompatActivity {
 
                 } catch (Exception e) {
 
-                    System.out.println("Exception "+ e.getMessage());
                     return null;
                 }
 

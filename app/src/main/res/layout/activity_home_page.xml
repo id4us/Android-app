@@ -8,41 +8,10 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    android:background="@drawable/homepagenptext02"
+    android:background="@drawable/weatherbackground"
     tools:context="com.example.id4us.activities.HomePageActivity">
 
-    <TextView
-        android:text="Mysteries"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_marginLeft="33dp"
-        android:layout_marginStart="33dp"
-        android:layout_marginTop="127dp"
-        android:id="@+id/textView1"
-        android:textAppearance="@style/TextAppearance.AppCompat.Caption"
-        android:textSize="14sp" />
 
-    <TextView
-        android:text="GENERATE"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignBottom="@+id/textView1"
-        android:layout_centerHorizontal="true"
-        android:id="@+id/textView2" />
-
-    <TextView
-        android:text="ADD NEW"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignTop="@+id/textView2"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true"
-        android:layout_marginRight="36dp"
-        android:layout_marginEnd="36dp"
-        android:id="@+id/textView3" />
 
     <TextView
         android:text="Mysteries of The World"
@@ -58,4 +27,53 @@
         android:textStyle="normal|bold"
         android:textAlignment="center"
         android:textColor="@android:color/white" />
+
+    <Button
+        android:text="Mysteries"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="56dp"
+        android:id="@+id/button1"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:background="@android:drawable/screen_background_light_transparent"
+        style="@android:style/Widget.DeviceDefault.Button.Borderless"
+        android:layout_below="@+id/textView4"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:text="ADD NEW"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button3"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:background="@android:drawable/screen_background_light_transparent"
+        style="@android:style/Widget.DeviceDefault.Button.Borderless"
+        android:layout_alignBaseline="@+id/button2"
+        android:layout_alignBottom="@+id/button2"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:text="GENERATE"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button2"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:background="@android:drawable/screen_background_light_transparent"
+        style="@android:style/Widget.DeviceDefault.Button.Borderless"
+        android:layout_alignBaseline="@+id/button1"
+        android:layout_alignBottom="@+id/button1"
+        android:layout_centerHorizontal="true" />
+
+    <fragment
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:name="com.example.id4us.fragments.WeatherFragment"
+        android:layout_marginTop="40dp"
+        android:id="@+id/fragment2"
+        android:layout_below="@+id/button2"
+        android:layout_centerHorizontal="true" />
+
+
 </RelativeLayout>
