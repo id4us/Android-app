@@ -11,10 +11,10 @@
         android:id="@+id/textView3"
         android:textSize="14sp"
         android:textStyle="normal|bold"
-        android:background="@drawable/homepagenptext02" />
+        />
 
-    <include
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        layout="@layout/activity_weather" />
+    <!--<include-->
+        <!--android:layout_width="fill_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--layout="@layout/activity_weather" />-->
 </LinearLayout>
