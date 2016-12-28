@@ -78,5 +78,13 @@
         android:layout_alignBottom="@+id/button1"
         android:layout_centerHorizontal="true" />
 
+    <fragment
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:name="com.example.id4us.fragments.WeatherFragment"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/fragment3"
+        android:layout_below="@+id/imageView" />
+
 
 </RelativeLayout>
